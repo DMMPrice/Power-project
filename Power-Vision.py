@@ -27,15 +27,15 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
-# Dictionary of states and their corresponding CSV files
 states = {
-    'West Bengal': 'WB_Final forecast to 27.csv',
+    'Delhi': 'All_delhi_forecasted.csv',
+    'West Bengal': 'WB_Final_forecast_to_27.csv',
     'Karnataka': 'karnataka_forecast_UPto_27.csv',
-    'Delhi': 'All delhi forecasted.csv',
-    'Maharashtra': 'Maharashtra Peak Load.csv',
+    'Maharashtra': 'Maharashtra_Peak_Load.csv',
     'UP': 'UPforecast_upto_27.csv'
 }
+
+# Dictionary of states and their corresponding CSV files
 
 # Add a title with custom CSS
 st.markdown('<div class="title-section">Power Vision</div>', unsafe_allow_html=True)
