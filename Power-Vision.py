@@ -22,6 +22,7 @@ st.markdown(
         color: #31333F;
         padding: 5px;
     }
+    footer {visibility: hidden;}
     </style>
     """,
     unsafe_allow_html=True
